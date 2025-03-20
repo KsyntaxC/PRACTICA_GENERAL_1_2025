@@ -12,9 +12,10 @@ while i<len(cad):
     p=""; sw=0
     while i<len(cad) and cad[i]!=' ' and cad[i]!=',':
         p=p+cad[i]
-        if cad[i] == 'o':
+        if cad[i]=='o' or cad(i)=='O':
             sw=1
         i=i+1
     if sw==1:
         print(p)
     i=i+1
+#ESTO ES CADENAS OSEA, WTF QUE HACE EN REPETITIVAS, BUENO, YO NO HAGO LA PRACTICA

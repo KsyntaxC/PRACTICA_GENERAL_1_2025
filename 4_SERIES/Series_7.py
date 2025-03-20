@@ -5,8 +5,8 @@ N=int(input("N: "))
 par=2; a=-1; b=1 ;fibo=a+b
 for i in range(N):
     if i%2==0:
-        print(par,end=" ")
+        print(par,end=", ")
         par=par+2
     else:
-        print(fibo,end=" ")
+        print(fibo,end=", ")
         a=b; b=fibo; fibo=a+b

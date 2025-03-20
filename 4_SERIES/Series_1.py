@@ -8,6 +8,7 @@ cont = 0
 while cont < N:
     for j in range(1, i + 1):
         if cont < N:
-            print(j, end=" ")
+            print(j, end=", ")
             cont += 1
     i += 1
+#EN REVISION 1 y 9

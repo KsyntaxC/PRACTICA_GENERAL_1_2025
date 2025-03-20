@@ -11,10 +11,10 @@ for i in range(1,N+1):
                 if primo%j==0:
                     np=0
             if np==1:
-                print(primo, end=" ")
+                print(primo, end=", ")
                 sw=1
             primo=primo+1
         sw=0
     else:
-        print(fibo,end=" ")
+        print(fibo,end=", ")
         a=b; b=fibo; fibo=a+b

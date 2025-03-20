@@ -5,4 +5,4 @@ N=int(input("N: "))
 facto=1
 for i in range(1,N+1):
     facto=facto*i
-    print(facto,end=" ")
+    print(facto,end=", ")
