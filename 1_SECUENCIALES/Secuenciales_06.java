@@ -4,7 +4,7 @@
  * 2/2A.
  */
 import java.util.Scanner;
-public class Secuenciales_6 {
+public class Secuenciales_06 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Velocidad en metros por segundo: ");

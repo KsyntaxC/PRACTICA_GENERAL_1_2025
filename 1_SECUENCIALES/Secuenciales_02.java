@@ -4,7 +4,7 @@ distancia D entre los dos puntos. Debe mostrar la salida con formato de 2 decima
 Use la siguiente fórmula:
  */
 import java.util.Scanner;
-public class Secuenciales_2 {
+public class Secuenciales_02 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("x1: ");

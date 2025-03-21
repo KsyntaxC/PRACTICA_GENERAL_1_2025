@@ -3,7 +3,7 @@
  * utilizar el operador módulo %, siendo el entero b distinto de cero.
  */
 import java.util.Scanner;
-public class Secuenciales_4 {
+public class Secuenciales_04 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a,b,coc,rst;

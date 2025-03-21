@@ -6,7 +6,7 @@
  * Considere que 1800 ≤ X ≤ 14000, 1 ≤ Y ≤ 10, 1 ≤ Z ≤ 8 respectivamente.
  */
 import java.util.Scanner;
-public class Secuenciales_5 {
+public class Secuenciales_05 {
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
         int X,Y,Z;

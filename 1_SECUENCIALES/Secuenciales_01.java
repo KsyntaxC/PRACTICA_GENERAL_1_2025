@@ -3,7 +3,7 @@
 en el siguiente formato, HH : MM : SS.
  */
 import java.util.Scanner;
-public class Secuenciales_1{
+public class Secuenciales_01{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Intro N: ");

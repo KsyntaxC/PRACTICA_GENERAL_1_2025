@@ -4,7 +4,7 @@
  * para llegar a tiempo a su trabajo?
  */
 import java.util.Scanner;
-public class Secuenciales_7 {
+public class Secuenciales_07 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Distancia en metros: ");

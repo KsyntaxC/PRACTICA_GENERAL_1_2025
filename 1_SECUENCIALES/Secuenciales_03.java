@@ -3,7 +3,7 @@
 en cuenta el dinero prestado, el interés anual y los años en los que la deuda se cancela.
  */
 import java.util.Scanner;
-public class Secuenciales_3 {
+public class Secuenciales_03 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Prestamo: ");
