@@ -5,21 +5,19 @@ Entrada: La entrada consiste de tres números enteros a,b,c. Representando el d�
 a=int(input("Día: "))
 b=int(input("Mes: "))
 c=int(input("Año: "))
-if 0<a<=31 and 0<b<=12 and c>0:
-    if b in (4,6,9,11) and a>30:
-        print("Fecha Incorrecta")
-    elif b == 2:
+if 1<=b<=12 and c>0:
+    if b==2:
         if (c%4==0 and c%100!=0) or (c%400==0):
-            if a>29:
-                print("Fecha Incorrecta")
-            else:
-                print("Fecha Correcta")
+            max_dia=29 
         else:
-            if a>28:
-                print("Fecha Incorrecta")
-            else:
-                print("Fecha Correcta")
+            max_dia=28
+    elif b in (4, 6, 9, 11):
+        max_dia=30
     else:
+        max_dia=31
+    if 1<=a<=max_dia:
         print("Fecha Correcta")
+    else:
+        print("Fecha Incorrecta")
 else:
     print("Fecha Incorrecta")
