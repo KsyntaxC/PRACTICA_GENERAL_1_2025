@@ -14,7 +14,7 @@ entre los dos numeros.
 '''
 #PARA HACER LO DE LAS t LINEAS SE DEBE UTILIZAR UN CICLO (LOTES) SIN ESO NO SE PUEDE WTF
 t=int(input("t intentos: "))
-for i in range(1, t+1):
+for i in range(t):
     a,b=map(int,input("Ingrese un par de números: ").split())
     if a>b:
         print(">")

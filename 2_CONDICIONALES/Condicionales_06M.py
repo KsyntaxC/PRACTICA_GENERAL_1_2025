@@ -1,5 +1,4 @@
 '''
-Dado un número n, Ordenar los dígitos en orden descendente.
 Entrada: La entrada consiste de cinco números enteros a,b,c,d,e. El objetivo es ordenarlos de mayor a menor.
 '''
 #ESTA ES LA SEGUNDA OPCION, SIN AÑADIR VARIABLES

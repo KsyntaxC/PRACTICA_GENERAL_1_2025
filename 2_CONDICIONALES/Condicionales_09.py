@@ -7,11 +7,10 @@ Entrada: Se te dara un entero N que es el numero de rondas que se jugaran.Luego 
 representan el numero que dijo Herland, Sami y Luisin respectivamente.
 Salida: Por cada ronda del juego, debes imprimir el nombre de la persona que dijo el
 numero diferente.
-
 '''
 #PARA HACER LO DE LAS N LINEAS SE DEBE UTILIZAR UN CICLO (LOTES) SIN ESO NO SE PUEDE WTF
 N=int(input("Intro N: "))
-for i in range (1,N+1):
+for i in range (N):
     a,b,c=map(int,input("Herland, Sami, Luisin: ").split())
     if a==b and a!=c:
         print("Luisin")

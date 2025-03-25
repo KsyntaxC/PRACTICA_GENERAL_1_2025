@@ -15,7 +15,7 @@ if D>0:
     print("Las soluciones son reales")
     print(f"x1={x1:.3f}   x2={x2:.3f}")
 if D==0:
-    X=-b/(2*a)
+    x=-b/(2*a)
     print("La solucion es real")
     print(f"x={x:.3f}")
 if D<0:

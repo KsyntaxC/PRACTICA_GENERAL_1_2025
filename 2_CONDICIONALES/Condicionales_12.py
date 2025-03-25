@@ -1,6 +1,6 @@
 '''
-Descripcion: En la planta nuclear Car se compro unas papas y quedaban 4, sin embargo Homero se comio una, Car es muy observador as´ı que vio que sus papas pod´ıan formar
-un rectangulo ahora homero debe romper un palo de papita en dos para que se forme un
+Descripcion: En la planta nuclear Car se compro unas papas y quedaban 4, sin embargo Homero se comio una, Car es muy observador 
+asi que vio que sus papas poian formar un rectangulo ahora homero debe romper un palo de papita en dos para que se forme un
 rectangulo y asi Car no se de cuenta ayudalo a ver si es posible.
 Hay tres palos con longitudes enteras x,y,z
 Se le pide que rompa exactamente uno de ellos en dos pedazos de tal manera que:
