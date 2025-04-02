@@ -18,5 +18,5 @@ while N>1:
         r=r+str(fac)+" ^ "+str(ex)+" * "
         s=s+fac
     fac=fac+1
-r=r+"1 * 1"
+r=r+"1"
 print(r,"  = ",s)

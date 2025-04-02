@@ -17,8 +17,8 @@ prueba y que convierta la cadena de texto en una cadena BAILARINA.
 Entrada: La entrada consiste en un entero T numero de casos de prueba, seguido por
 T lineas, cada una contiene una cadena de texto, puede ser que este vacia.
 Salida: Imprimir una linea por cada caso de prueba, que contiene la cadena bailarina
-resultado.'''
-
+resultado.
+'''
 T=int(input("Introduce el numero T de casos de prueba: "))
 for i in range(1,T+1):
     cad=input("Introduce la cadena: ")
