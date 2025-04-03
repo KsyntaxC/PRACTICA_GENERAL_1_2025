@@ -21,5 +21,5 @@ while N>0:
         temp=temp%10**(cd-1)
         cd=cd-1
         if d<dtemp:
-            d
+            nn=nn*10+d
 print(nn)
